@@ -1,24 +1,19 @@
-# Neon Tic Tac Toe (C Language)
+# 🎮 Neon Tic Tac Toe (C Language)
 
-This is a console-based Tic Tac Toe game written in C.
-It supports:
-- 3x3 and 4x4 board
-- Player vs Player
-- Player vs Computer
-- Difficulty levels
-- Scoreboard
+A colorful Tic Tac Toe game written in C with:
+- Player vs Player mode
+- Player vs Computer mode
+- Difficulty levels (Easy, Medium, Hard)
 - Time limit per move
+- Scoreboard
+- 3x3 and 4x4 board support
 
-## How to Run the Game
+## 🛠 Requirements
+- GCC compiler
+- Windows / Linux / macOS
 
-### Step 1: Download the Code
-Download the file `tic_tac_toe.c`
+## ▶ How to Compile and Run
 
-### Step 2: Compile the Program
-Open terminal / command prompt and run:
-
-gcc tic_tac_toe.c -o game
-
-### Step 3: Run the Game
-
+```bash
+gcc game.c -o game
 ./game
